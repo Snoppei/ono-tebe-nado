@@ -291,7 +291,6 @@
   grid-template-columns: 334px 1fr;
   grid-template-rows: auto 1fr;
   gap: 0 25px;
-  height: 563px;
 }
 
 .about__logo {
@@ -322,6 +321,7 @@
 
 .about__title {
   margin-top: 92px;
+  margin-bottom: 100px;
   padding-top: 10px;
   font-weight: 700;
   font-size: 40px;
@@ -348,7 +348,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  padding: 180px 50px 88px;
+  padding: 179px 50px 88px;
 }
 
 .footer__address {
