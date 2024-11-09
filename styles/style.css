@@ -383,11 +383,14 @@
   text-decoration: none;
 }
 
+.footer__social-media {
+  grid-column: 3 / 4;
+  justify-self: end;
+}
+
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  grid-column: 3 / 4;
-  justify-self: end;
   gap: 48px;
 }
 
