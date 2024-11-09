@@ -33,8 +33,8 @@
   margin-top: 2px;
   font-weight: 400;
   font-size: 18px;
-  letter-spacing: 0.01em;
-  text-underline-offset: 0.25rem;
+  letter-spacing: .01em;
+  text-underline-offset: .25rem;
 }
 
 .header__link_active {
@@ -55,7 +55,7 @@
   max-width: 240px;
   font-size: 18px;
   line-height: 1.35;
-  letter-spacing: 0.01em;
+  letter-spacing: .01em;
 }
 
 .header__address {
@@ -64,7 +64,7 @@
 }
 
 .address__link {
-  text-underline-offset: 0.25rem;
+  text-underline-offset: .25rem;
 }
 
 .address__real-address {
@@ -113,23 +113,19 @@
   font-weight: 700;
   font-size: 100px;
   line-height: 1;
-  letter-spacing: 0.3em;
+  letter-spacing: .3em;
   text-transform: uppercase;
-}
-
-.aligned-text:nth-child(1) {
-  margin-bottom: 20px;
-  line-height: 1.15;
-}
-
-.aligned-text:nth-child(3) {
-  margin-top: 20px;
 }
 
 .aligned-text {
   display: inline-block;
   width: 100%;
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.aligned-text_line-height-extended {
+  line-height: 1.15;
 }
 
 .aligned-text_center {
@@ -141,7 +137,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: .6em;
 }
 
 .no-letter-spacing {
@@ -163,7 +159,7 @@
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 0.84em;
+  word-spacing: .84em;
 }
 
 .bet-button {
@@ -254,7 +250,7 @@
   line-height: 1.2;
   text-decoration: underline solid 1px;
   text-decoration-skip-ink: none;
-  text-underline-offset: 0.2rem;
+  text-underline-offset: .2rem;
   text-transform: uppercase;
 }
 
@@ -270,7 +266,7 @@
 .ellipsis {
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.13em;
+  letter-spacing: .13em;
   text-align: left;
 }
 
@@ -286,7 +282,7 @@
   line-height: 1.175;
   text-align: left;
   text-decoration: underline solid 1px;
-  text-underline-offset: 0.3rem;
+  text-underline-offset: .3rem;
 }
 
 .about {
@@ -384,7 +380,7 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  text-underline-offset: 0.25rem;
+  text-underline-offset: .25rem;
 }
 
 .footer__menu-link_active {
