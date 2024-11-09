@@ -318,9 +318,17 @@
   height: 114px;
 }
 
+.about__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-area: 1 / 2 / 3 / 3;
+  height: 100%;
+  width: 100%;
+}
+
 .about__title {
-  grid-area: 1 / 2 / 2 / 3;
-  align-self: center;
+  margin-top: 92px;
   padding-top: 10px;
   font-weight: 700;
   font-size: 40px;
@@ -330,25 +338,17 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  grid-area: 2 / 2 / 3 / 3;
-  gap: 27px;
-  align-self: end;
+  gap: 25px;
+  align-self: start;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.01em;
+  letter-spacing: .01em;
+  margin-bottom: 1px;
 }
 
 .about__text > p:last-child {
   letter-spacing: 0;
-}
-
-.about__text > p > .letter-spacing-extended {
-  letter-spacing: 0.02em;
-}
-
-.about__text > p > .no-letter-spacing {
-  letter-spacing: 0.01em;
 }
 
 .footer {
